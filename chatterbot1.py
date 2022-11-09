@@ -25,7 +25,7 @@ bot = ChatBot(
 )
 
 trainer = ChatterBotCorpusTrainer(bot)
-trainer.train("./conversations.yml")
+trainer.train("./conversations.yml", "chatterbot.corpus.english.greetings", "chatterbot.corpus.english.conversations")
 
 while True:
     try:
